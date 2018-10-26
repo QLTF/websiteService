@@ -34,7 +34,7 @@ public class GetListContorll {
             ListData.add(itemDTO);
         }
         ResultData.put("text","请求成功");
-        ResultData.put("listdata",ListData);
+        ResultData.put("ListData",ListData);
         return ResultData;
     }
 }
